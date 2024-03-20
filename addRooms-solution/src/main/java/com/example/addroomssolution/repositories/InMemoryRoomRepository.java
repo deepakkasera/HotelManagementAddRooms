@@ -42,6 +42,4 @@ public class InMemoryRoomRepository implements RoomRepository {
         roomsMap.put(idCounter, room);
         return room;
     }
-
-
 }
